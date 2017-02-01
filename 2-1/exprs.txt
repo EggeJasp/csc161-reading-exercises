@@ -1,0 +1,27 @@
+Question 1:
+A short is an integer that has a length of up to 16 bits. Its values are between -32767 and 32767.
+An int is an integer with a size of at least 16 bits. Its values are between -2147483647 and 2147483647
+A float is a "single-precision floating point," or a number value with up to 7 decimal digits of precision. Its values are between  1.175494 * 10^-38 and 3.402823 *10^38
+A double is a "double-precision floating point," or a number value with up to 15 decimal digits of precision. Its values are between something stupidly small(around 1*10^-37) and something stupidly large(about 1.7 * 10^309? I had to use the width of the terminal window to figure this out so it's probably a ways off). 
+
+Question 2:
+First, the equation inside the parenthesis is calculated.
+2 + 5 = 7.
+Then, 7/2 is calculated.
+7/2 = 3.5
+Next, the .5 is truncated because c assumes that the value just created is an integer.
+3.5 => 3
+Finally, when y is assigned to 3, c notices that y should be a float, and so adds 0s after the decimal point
+FINAL OUTPUT: 3.000000
+
+Question 3:
+i is set to 0 initially, and then is incremented in the line "int x = i++". It will be 1.
+j is set to 0 initially and is then incremented in the line "int y = ++j". It will be 1.
+In the expression "int x = i++", x is set to whatever value i holds, and then i is incremented. Before i is incremented it holds the value "0", so x will be 0.
+In the expression "int y = ++j", j is incrented from 0 to 1, and then y is set to the value j holds, making y 1.
+
+Sources:
+http://publications.gbdirect.co.uk/c_book/chapter9/limits.html
+http://en.cppreference.com/w/c/types/limits
+https://bytes.com/topic/c/answers/216260-most-negative-double-value
+The C Programming Language, by Brian W. Kernighan and Dennis M. Ritchie
