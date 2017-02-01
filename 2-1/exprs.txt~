@@ -1,6 +1,0 @@
-Question 1:
-A short is an integer that has a length of up to 16 bits. Its values are between -32767 and 32767.
-An int is an integer with a size of at least 16 bits. Its values are between -2147483647 and 2147483647
-A float is a "single-precision floating point," or a number value with up to 7 decimal digits of precision
-A double is a "double-precision floating point," or a number value with up to 15 decimal digits of precision
-
