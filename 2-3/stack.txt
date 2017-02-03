@@ -1,0 +1,14 @@
+Program Counter: 4
+
+The Stack
+=========
+---foo
+  x[5]
+---main
+  (empty)
+
+
+The program starts in main, where it immediantly calls the function "foo". In "foo", the local integer variable x is assigned the value 5.
+As far as what happens when the program executes, I'm pretty sure it's just going to go infinite. After Point A, "foo" appears to call itself again, creating a "new foo" that will assign its local x the value five, call foo again, etcetera.
+
+Update: After testing it, I got a "segmentation fault". Research into what this is made me learn that this is when too much memory is being asked for from the system. My conclusion: the code went infinite. 

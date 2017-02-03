@@ -1,0 +1,8 @@
+Program Counter: 4
+
+The Stack
+=========
+---foo
+  x[5]
+---main
+  (empty)
