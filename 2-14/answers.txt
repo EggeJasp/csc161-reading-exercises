@@ -1,0 +1,9 @@
+1) My prediction is that main will print 0 to the console, since the x created in change is not the same x as the one in main.
+
+2) 0 was printed to the console.
+
+3) Under the main part of the stack, the value 0 is stored into the integer variable x. Then, the function "change" is called, prompting a new section of the sstack to come into being. There, a new x is initialized, local to "change", with the value sent by main, 0. "change" then changes the value of the loval x to three. This function is done compiling, so it leaves the stack. The local x value in main is then printed, without having ever been changed.
+
+The value of x when change finishes compiling is 3.
+
+The assignment changes the local x in change, but otehr than that has no major effect on the program as a whole.
