@@ -1,0 +1,4 @@
+1) 10011001
+2) I can't reinterpret it as a signed char, since singed chars can only have values between -128 and 127.
+3) The trademark sign
+4) The binary value is stored: 10011001
