@@ -1,7 +1,7 @@
 This is a positive number, since the sign is 0.
 The part before the decimal is 10000101, which is 1 + 4 + 128
 133-127 = 6 <- This is the exponent
-Next part: 1.011001
-1 + 1/4 + 1/8 + 1/64 = 1 and 25/64 or 1.39
-1.39 * 2^6 or 88.96<-answer
+Next part: 1011001
+1/2 + 1/8 + 1/16 + 1/128 = 217/128 = 1.69
+1.69 * 2^6 or 108.16<-answer
 
